@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        // task 1
+        
         let first: Double = 2.5
         let second: Double = 9.7
         let third: Double = 6.9
@@ -38,8 +40,8 @@ class ViewController: UIViewController {
         print("Sum of Int part is \(sumInt)")
         print("Sum of Double part is \(sumDouble)")
         
-        //(first - Double(Int(first))) + (second - Double(Int(second))) + (third - Double(Int(third)))
-        //print("Sum of Double parts is \(sumDouble)")
+        
+        // task 2
         
         let number = -35
         let absNum = abs(number)
